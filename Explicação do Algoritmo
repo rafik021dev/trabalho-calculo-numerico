@@ -1,0 +1,9 @@
+Este algoritmo serve para encontrar a velocidade ótima de exaustão dos gases em sistemas de propulsão, minimizando a razão entre massa final e inicial de combustível, utilizando o método da bisseção para localização de mínimos da função.
+O problema é resolvido numericamente, pois a equação é não linear e não possui solução analítica simples.
+
+Eu escolhi o método da bissecção por ser estável e garantir convergência, mesmo em funções com derivadas pequenas ou instáveis, como neste caso.
+O programa procura automaticamente um intervalo onde a derivada muda de sinal e aplica o método da bisseção para determinar o valor.
+
+Saídas do Programa:
+-Velocidade ótima de exaustão dos gases em m/s.
+-Razão Mínima Correspondente
